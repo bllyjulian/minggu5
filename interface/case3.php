@@ -34,7 +34,7 @@ class DatabaseLogger implements Logger {
 }
 
 $logger = new FileLogger('./log.txt', 'w');
-$logger->log('nyoba billy');
+$logger->log('nyoba billy tes log');
 
 $loggers = [
     new FileLogger('./log.txt'),
